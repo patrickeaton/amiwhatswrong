@@ -5,7 +5,9 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>	
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script type="text/javascript" src="{{asset('js/script.js')}}"></script>	
-	</head>
+		<link rel="icon" type="img/ico" href="{{asset('images/favicon.ico')}}">
+		<title>Am I what's wrong?</title>	
+</head>
     <body>
         <div class="header">
         	<div class='title'>
