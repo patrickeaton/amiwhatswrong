@@ -55,5 +55,20 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     	'password'=>'required|alpha_num|between:6,12|confirmed',
     	'password_confirmation'=>'required|alpha_num|between:6,12'
     );
+	
+	public function getRememberToken()
+{
+    return $this->remember_token;
+}
+
+public function setRememberToken($value)
+{
+    $this->remember_token = $value;
+}
+
+public function getRememberTokenName()
+{
+    return 'remember_token';
+}
 
 }
